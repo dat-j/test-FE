@@ -1,0 +1,547 @@
+.header {
+    background-color: white;
+    max-width: 1920px;
+    width: 100%;
+    height: 206px;
+}
+.top-links-container{
+    background-color: white;
+    margin-left: 255px;
+    margin-right: 255px;
+    max-width: 1410px;
+    height: 40px;
+    display: grid;
+    align-content: center;
+}
+.top-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.top-links-right{
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+.other-links{
+    display: flex;
+    gap: 20px;
+}
+.currency{
+    display: flex;
+    gap: 20px;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E8EC ;
+    height: 1px;
+    width: 100%;
+    border: none;
+}
+.stick{
+    width:  1px !important;
+    height:  14px !important;
+    background-color: #E5E8EC;
+}
+span{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 16.25px;
+    font-size: 14px;
+    color: #212529;
+}
+p{  
+    color: #515D66;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16.25px;
+}
+p a{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #212529;
+    line-height: 16.25px;
+    font-size: 14px;
+    
+}
+.search-container{
+    margin:20px 0px
+}
+.search-container-content{
+    background-color: white;
+    margin:auto 255px;
+}
+.search-container-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search-box{
+    display: flex;
+    margin-left: 43px;
+}
+.search-bar{
+    display: flex;
+    width: 672px;
+    height: 45px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px;
+    border-right: 0px;
+    border-color:#E5E8EC;
+    align-items: center;
+    border-style: double;
+    
+}
+.search-bar span{
+    width: 21%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.search-bar .stick{
+    margin-left: 10px;
+}
+.search-btn{
+    width: 110px;
+    background-color:#2B38D1;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    height: 49px;
+    border: 2px;
+}
+.search-input{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.account{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.account-section{
+    display: flex;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+.account-section-detail p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16.25px;
+    font-size: 11px;
+    color: #212529;
+    margin: 0;
+    
+}
+.account-section-detail{
+    padding-left: 10px;
+}
+.your-cart p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16.25px;
+    font-size: 11px;
+    color: #212529;
+    margin: 0; 
+}
+.your-cart{
+    padding-left: 10px;
+}
+.menu-container{
+    height: 100%;
+    margin:0px 255px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 16.25px;
+    font-size: 14px;
+    color: #212529;
+}
+.menu{
+    height: 45px;
+}
+.left-menu{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    
+}
+.mid-menu{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -300px;
+}
+.mid-menu svg{
+    zoom:0.8;
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.buy-uminex{
+    color: #DC323C;
+    ;
+}
+/* =====================================CONTENT======================================================================CONTENT================================= */
+.content{
+    height: 300vh;
+    width: 100%;
+    background-color:#F1F5F6;
+    position: absolute;
+}
+.content-container{
+    background-color: #F1F5F6;
+    height: 1000px;
+    margin: 0px 255px;
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.category-list{
+    width: 270px;
+    height:  490px;
+    background-color: white;
+    border-radius: 5px;
+}
+.category-list-item{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 31px 0px;
+}
+.category-item{
+    background-color: white;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-container{
+    width: 1120px;
+    height: 490px;
+    position: relative;
+    
+}
+.offer{
+  
+    width: 1103px;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.product-container{
+    width: 1393px;
+    height: 751px;
+    background-color: #2B38D1;
+}
+.product{
+    background-color: #F1F5F6;
+    padding-top: 60px;
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 5px;
+}
+.product-item{
+    background-color: white;
+    width: 231px;
+    height: 373px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.left-product{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.right-product{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mid-product{
+    width: 466px;
+    background-color: white;
+    border-radius: 5px;
+}
+.product-img{
+    height: 191px;
+    width: 191px;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+.product-content{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.number-rate{
+    color: #515D66;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 15px;
+    font-size: 12px;
+}
+.price1{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22.5px;
+    font-size: 18px;
+    color: #DC323C
+}
+.price2{
+    color: #515D66;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 13.75px;
+    font-size: 11px;
+    color: #8D979E;
+    text-decoration: line-through
+}
+.price3{
+    color:#2B38D1;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22.5px;
+    font-size: 18px;
+}
+.instock{
+    color: #008A00;
+}
+.produc{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 12px;
+    color: #515D66;
+}
+.product-status svg{
+    zoom: 0.9;
+    color: #008A00;
+
+}
+.product-status{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.onlyleft{
+    color: #EF262C;
+}
+.mid-product-container{
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-product-container hr{
+    margin: 20px 0px;
+}
+.mid-product-content{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.today-offer{
+    width: 100%;
+}
+.mid-product-img{
+    width: 386px;
+    height: 386px;
+}
+.mid-product-img img{
+    width: 100%;
+    height: 100%;
+}
+.block{
+    background-color: #DC323C;
+    height: 50px;
+    width: 45px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+.block p{
+    color: white;
+    display: inline-block;
+}
+.time-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hurry-up{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.process{
+    height: 5px;
+    width: 100%;
+    background-color: #F3F4F6;
+    border-radius: 10px;
+}
+.process .process-number{
+    width: 290px;
+    background-color: #EF262C;
+    height: 100%;
+    border-radius: 5px;
+}
+.sold{
+    font-size: 12px;
+    font-weight: 500;
+    color: #515D66;
+}
+.offer-slide{
+    width: 100%;
+    height: 325px;
+
+    border-radius: 5px;
+    z-index: 0;
+}
+.offer-slide img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.offerlist{
+
+    height: 165px;
+    width: 100%;
+    display: flex;
+    gap:5px;
+}
+.offer1{
+    
+    height: 163px;
+    width: 365px;
+    border-radius: 5px;
+}
+.prev{
+    z-index: 1;
+}
+.next{
+    z-index: 1;
+}
+.move-slide{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+    margin-top: -175px;
+}
+.dot{
+    zoom: 2;
+    position: absolute;
+    padding-top: 40px;
+    margin-left: 246px;
+}
+.dot span{
+    display: inline-block;
+    width: 5px;
+}
+.dot svg{
+    color: white;
+}
+.offer1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.offer-text{
+    position: relative;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: -150px;
+}
+.text1 span{
+    color: #FDE50B;
+    font-size: 12px;
+    font-weight: 700;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+
+}
+.text2 span{
+    font-size: 36px;
+    color: white;
+}
+.gamepad{
+    color: #17F084 !important;
+    display: inline-block;
+}
+.shop-now button{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30px;
+}
+.offer1-text{
+    width: 150px;
+    height: 90px;
+    position: relative;
+    margin-top: -130px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sp1 span{
+    font-weight: 700;
+    font-size: 18px;
+}
+.sp2 span{
+    font-weight: 500;
+    font-size: 14px;
+}
