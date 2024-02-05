@@ -524,6 +524,7 @@ ul li{
 .gamepad{
     color: #17F084 !important;
     display: inline-block;
+    font-weight: bold;
 }
 .shop-now button{
     height: 45px;
