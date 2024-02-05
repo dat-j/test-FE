@@ -230,6 +230,7 @@ ul li{
     position: relative;
     margin-top: 30px;
     display: flex;
+    padding-top: 30px;
     flex-wrap: wrap;
     
 }
