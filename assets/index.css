@@ -621,7 +621,8 @@ ul li{
     outline: none;
     border-style: double;
     height: 50px;
-    width: 300px
+    width: 300px;
+    padding-left: 10px;
     
 }
 .right-content button{
