@@ -214,10 +214,10 @@ ul li{
 }
 /* =====================================CONTENT======================================================================CONTENT================================= */
 .content{
-    height: 300vh;
+    height: 1380px;
     width: 100%;
     background-color:#F1F5F6;
-    position: absolute;
+
 }
 .content-container{
     background-color: #F1F5F6;
@@ -544,4 +544,111 @@ ul li{
 .sp2 span{
     font-weight: 500;
     font-size: 14px;
+}
+/* =====================FOOTER=============================== */
+.footer{
+    background-color: white;
+    height: 407px;
+    width: 100%;
+}
+.footer1{
+    margin: 0px 255px;
+
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1-left{
+    width: 33%;
+
+}
+.left-container{
+    height: 100%;
+    width: 100%;
+    padding: 70px 0px;
+}
+.footer1-mid{
+    width: 33%;
+
+}
+.footer1-right{
+    width: 33%;
+
+}
+.footer2{
+    margin: 0px 255px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-name span{
+    font-weight: 700;
+    font-size: 14px;
+    color: #212529;
+    line-height: 17.5px;
+    text-transform: uppercase;
+}
+.footer-content p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer-content span{
+    font-weight: 500;
+    font-size: 30px;
+    color: #2B38D1;
+}
+.mid-container{
+    display: flex;
+    gap: 30%;
+    padding-top: 70px;
+}
+.mid-content p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.right-container{
+    padding-top: 70px;
+}
+.right-content p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.right-content input{
+    border: 1px;
+    border-radius: 50px;
+    border-color: #E5E8EC;
+    outline: none;
+    border-style: double;
+    height: 50px;
+    width: 300px
+    
+}
+.right-content button{
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    background-color: #2B38D1;
+    border: none;
+
+}
+.right-content button span{
+ 
+    color: white;
+}
+.copyright{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 17.25px;
+    font-size: 14px;
+    color: #515D66;
+}
+.uminex-bot{
+    color: #2B38D1;
+}
+.payment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
